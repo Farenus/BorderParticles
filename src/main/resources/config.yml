@@ -3,3 +3,18 @@ spawnX: -73
 spawnZ: -10
 radius: 500
 refreshIntervalSeconds: 60
+
+commands:
+  borderparticles:
+    description: "Główna komenda pluginu BorderParticles."
+    usage: "/<command> [reload]"
+    aliases: [bp, borderp]
+    permission: borderparticles.command
+
+permissions:
+  borderparticles.command:
+    description: "Pozwala na użycie głównej komendy."
+    default: op
+  borderparticles.reload:
+    description: "Pozwala na przeładowanie konfiguracji pluginu."
+    default: op
