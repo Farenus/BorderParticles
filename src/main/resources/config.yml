@@ -1,0 +1,5 @@
+world: world
+spawnX: -73
+spawnZ: -10
+radius: 500
+refreshIntervalSeconds: 60

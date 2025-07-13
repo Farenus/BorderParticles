@@ -1,0 +1,4 @@
+name: BorderParticles
+version: 1.0
+main: me.michal.borderparticles.BorderParticles
+api-version: 1.20
